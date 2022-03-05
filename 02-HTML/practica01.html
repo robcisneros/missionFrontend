@@ -1,10 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" >
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Práctica web LaunchX</title>
-        <link rel="stylesheet" href="" >
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Práctica web LaunchX</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!-- Headings h1, h2, h3 -->
+    <h3>hola</h3>
+    <!--Links-->
+    <a
+      href="https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/02%20-%20HTML/temario/2.-etiquetasBasicas.md"
+      target="blank"
+      >Enlace a Frontend github</a
+    >
+    <br />
+
+    <img
+      src="https://wipy.tv/wp-content/uploads/2020/04/minions-2-1200x675.jpg"
+      alt="minions"
+      height="400px"
+    />
+    <!--Tablas-->
+    <table>
+      <tr>
+        <th>Compañía</th>
+        <th>Contacto</th>
+        <th>País</th>
+      </tr>
+      <tr>
+        <td>Gin</td>
+        <td>Rob</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ginos</td>
+        <td>Romario</td>
+        <td>Argentina</td>
+      </tr>
+    </table>
+    <!--Listas-->
+    <ul>
+      <li>Café</li>
+      <li>Avena</li>
+      <li>Limón</li>
+    </ul>
+    <ol>
+      <li>Café</li>
+      <li>Avena</li>
+      <li>Limón</li>
+    </ol>
+    <dl>Enchiladas</dl>
+    <dd>Tortilla frita con salsa</dd>
+    <dt>Molletess</dt>
+    <dd>Bolillo con frijoles y queso</dd>
+
+    <label for="Input1">Ejemplo de input de texto</label><br>
+    <input type="text" id="Input1" name="Input1" /><br>
+
+    <label for="numero1">Input de número</label><br>
+    <input type="tel" id="numero1" name="numero1" maxlength="5"><br>
+
+    <!--Selección multipple-->
+    <h2>Input de selección multiple</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+    <label for="topping1">Tacos con Cebolla</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+    <label for="topping2">Tacos con Cilantro</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+    <label for="topping3">Tacos con Salsa</label><br><br>
+    
+    <h2>Input de selección única</h2><br>
+    <input type="radio" id="roja" name="salsas" value="Roja">
+    <label for="roja">Roja</label><br>
+    <input type="radio" id="verde" name="salsas" value="Verde">
+    <label for="verde">Verde</label><br>
+    <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+    <label for="guacamole">Guacamole</label><br><br>
+
+    <h2>Select</h2>
+    <label for="tacos">De que la orden</label>
+    <select id="tacos" name="tacos">
+        <option value="suadero">Suadero</option>
+        <option value="pastor">Pastor</option>
+        <option value="campechanos">Campechanos</option>
+        <option value="tripa">Tripa</option>
+    </select>
+
+    <h2>Select con Input</h2>
+    <label for="refresco">Elige tu refresco favorito</label><br>
+    <input list="refresco">
+    <datalist id="refresco">
+        <option value="Coca-Cola">
+        <option value="Manzana">
+        <option value="Naranja">
+        <option value="Mango">
+        <option value="Guayaba">
+    </datalist>
+    <br><br>
+
+    <hr>
+    <a href="./pedidos.html">
+      <button>Hacer Pedido</button>
+    </a>
+  </body>
 </html>

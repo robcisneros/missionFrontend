@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Práctica de pastelería</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <h1>Pastelería Porvenir</h1>
+
+      <div>
+        <img src="./assets/img/cake.jpg" alt="pasteleria" >
+      </div>
+      <form action="./datoscliente.html" id="form1"></form>
+        
+        <h2>Personaliza tu pedido: </h2>
+        <table class="tablas">
+          <tr>
+            <th>Sabores</th>
+            <th>$</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Selva Negra</td>
+            <td>89.99</td>
+            <td><input type="checkbox" id="flavor1" name="flavor1" value="SelvaNegra" /></td>
+          </tr>
+          <tr>
+            <td>Tres leches limón</td>
+            <td>85.99</td>
+            <td><input type="checkbox" id="flavor2" name="flavor2" value="TresLeches" /></td>
+          </tr>
+          <tr>
+            <td>Zarzamora pay de queso</td>
+            <td>105.99</td>
+            <td><input type="checkbox" id="flavor3" name="flavor3" value="TresLeches" /></td>
+          </tr>
+        </table>
+
+        <h3>Añade adornos</h3>
+        <table class="tablas">
+          <tr>
+            <th>Toppings</th>
+            <th>$</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td><label for="topping1">Chokoretas</label></td>
+            <td>22.00</td>
+            <td><input type="checkbox" id="topping1" name="topping1" value="Chokoretas" /></td>
+          </tr>
+          <tr>
+            <td><label for="topping2">Chocolate blanco</label></td>
+            <td>15.00</td>
+            <td><input type="checkbox" id="topping2" name="topping2" value="ChocolateBlanco" /></td>
+          </tr>
+          <tr>
+            <td><label for="topping3">Fresas</label></td>
+            <td>25.00</td>
+            <td><input type="checkbox" id="topping3" name="topping3" value="Fresas" /></td>
+          </tr>
+        </table>
+
+          <a href="./datoscliente.html">
+            <input type="submit" value="Submit" />
+          </a>
+          <br>
+
+      </form>
+  </section>
+    <hr />
+
+  </body>
+</html>
